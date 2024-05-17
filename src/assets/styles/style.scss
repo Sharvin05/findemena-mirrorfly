@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Italiana&family=Rouge+Script&family=Sedan+SC&family=Sacramento&display=swap');
+@import "../fonts/style.css";
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  word-wrap: break-word;
+}
+body {
+  background-color: #f9f9f9;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.cursor-disable{
+  cursor: not-allowed;
+}
+.v-list-item__prepend > .v-icon {
+  margin-inline-end: 8px !important;
+}
+.v-list-item__spacer{
+  display: none;
+}
+.cursive-font{
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-style: italic;
+}
+@media only screen and (max-width: 1400px) {
+  .wrapper {
+    padding: 0px 30px;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .wrapper {
+    padding: 0px 60px;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .wrapper {
+    padding: 0px 150px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .wrapper {
+    padding: 0px calc((100vw - 1600px) / 2);
+  }
+}
