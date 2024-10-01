@@ -49,17 +49,6 @@ export default {
                     label:this.$t('chat'),
                     action:ROUTES.CHAT
                 },
-
-                {
-                    icon:activity,
-                    label:this.$t('activity'),
-                    action:ROUTES.ACTIVITY
-                },
-                {
-                    icon:notification,
-                    label:this.$t('notification'),
-                    action:ROUTES.NOTIFICATION
-                },
             ],
             biddingRoute:ROUTES.BIDDING
         }
@@ -76,34 +65,6 @@ export default {
 
         }
     },
-    beforeMount() {
-        const user=store.getUser()
-        if(user.category===1){
-            this.navList[0].action=ROUTES.BRANDS
-        }else if(user.category===2){
-            this.navList[0].action=ROUTES.AGENCY
-        }else if(user.category===3){
-            this.navList[0].action=ROUTES.SUPPLIER
-        }
-        if(user.category === 3){
-            const obj =  {
-                label:this.$t('bidding'),
-                action:ROUTES.BIDDING,
-                icon:bidding,
-            }
-            this.addElement(obj)
-            // this.navList = [this.list[0],obj , this.list[1]]
-        }
-        if(user.category !== 3){
-            const obj =  {
-                label:this.$t('planner'),
-                action:ROUTES.PLANNER,
-                icon:planner,
-            }
-            this.addElement(obj)
-            // this.navList = [this.list[0],obj , this.list[1]]
-        }
-    }
 
 }
 </script>

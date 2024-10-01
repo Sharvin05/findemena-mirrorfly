@@ -13,8 +13,11 @@ function MirrorFlyUIReactComponent() {
         groupChatEnabled: false,
         logoutEnabled: false,
         profileEditable: false,
-        displayName:`${user?.firstName} ${user?.lastName}`
+        newChatEnabled: false,
+        browserTitle: "Chat | Findmena",
+
     };
+
     const customColorSet={
         mfThemeColor:" #6637bb",
         mfChatBubbleSenderBg:" #5521b4",
@@ -24,12 +27,18 @@ function MirrorFlyUIReactComponent() {
         mfChatBadgeText:"#1E1F4B"
     }
 
+    const customConversation = {
+        // userId:route?.params?.id,
+        sidebarchat:false
+    }
 
     return (
         <>
             <ChatApp
+                width="100%"
                 licenseKey="PByC6Ln9dBX6vxZoZ6aHP1zJCDDhzF"
                 userIdentifier={user?._id}
+                customConversation={customConversation}
                 mirrorflyConfig={config}
                 colorSet={customColorSet}
             />
