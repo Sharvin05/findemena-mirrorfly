@@ -6,9 +6,9 @@
             </div>
 
             <div class="right flex-box">
-                <LanguageButton />
+<!--                <LanguageButton />-->
                 <NavItem  v-for="(item,index) in navList" :data="item" @click="handleRoute(item.action)" />
-                <AccountIcon/>
+<!--                <AccountIcon/>-->
             </div>
         </div>
     </div>

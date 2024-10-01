@@ -1,6 +1,5 @@
 <template>
     <div class="logo-area">
-        <img class="logo" src="/logo.svg">
         <div class="name-tag">
             <p class="bold-24 first-letter text-dark-purple">
                 findmena
