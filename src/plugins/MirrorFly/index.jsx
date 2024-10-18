@@ -5,7 +5,7 @@ import Vue from '@vue/compat'
 import {store} from "@/store/store.js";
 
 Vue.use(React)
-function MirrorFlyUIReactComponent() {
+function MirrorFlyUIReactComponent({route,changeUnreadCount}) {
 
     const user = store.getUser()
 
@@ -15,6 +15,9 @@ function MirrorFlyUIReactComponent() {
         profileEditable: false,
         newChatEnabled: false,
         browserTitle: "Chat | Findmena",
+        darkThemeEnabled: false,
+        addParticipantCallEnabled:false,
+        forwardChatEnabled:false,
 
     };
 
@@ -28,19 +31,20 @@ function MirrorFlyUIReactComponent() {
     }
 
     const customConversation = {
-        // userId:route?.params?.id,
+        userId:route?.params?.id,
         sidebarchat:false
     }
-
+//     customConversation={customConversation}
     return (
         <>
             <ChatApp
                 width="100%"
                 licenseKey="PByC6Ln9dBX6vxZoZ6aHP1zJCDDhzF"
                 userIdentifier={user?._id}
-                customConversation={customConversation}
+                enableDeviceSize={false}
                 mirrorflyConfig={config}
                 colorSet={customColorSet}
+                customConversation={customConversation}
             />
         </>
     );

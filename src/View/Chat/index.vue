@@ -1,9 +1,11 @@
 <template>
     <div class="wrapper">
         <div class="chat-wrapper">
-            <Basic/>
+            <Basic  :route="currentRoute"
+                    :changeUnreadCount="handleUnreadCount" />
         </div>
     </div>
+
 </template>
 
 <script>
@@ -18,13 +20,41 @@ export default {
         return{
 
         }
+    },
+    computed:{
+        currentRoute(){
+            return this.$route
+        },
+    },
+    methods:{
+        handleUnreadCount(data){
+            this.emitter.emit("unReadCount",data)
+        },
+    },
+    mounted() {
+        // Accessing the parent element's offsetWidth when the component is mounted
+        this.$nextTick(() => {
+            const element = this.$el; // Refers to the root element of the component
+            const parentWidth = element.parentElement.offsetWidth;
+            console.log('Parent Width:', parentWidth);
+        });
     }
 }
 </script>
+<style scoped>
+[__use_react_component_wrap] {
+    //display: flex !important; /* Ensures your styles take precedence */
+    height: 100% !important;
+}
+</style>
 <style lang="scss">
 .mirrorfly-root .boxLayout{
     background: none !important;
     padding: 0px !important;
+    height: calc(100vh - 130px)  !important;
+}
+.mirrorfly-root{
+    height: calc(100vh - 130px)  !important;
 }
 
 .mirrorfly-root .mf-section .start-chart p {
@@ -36,9 +66,7 @@ export default {
 .mirrorfly-root .container .chat-conversion .chatconversation-container{
     background-repeat: repeat;
 }
-.mirrorfly-root .container .chat-conversion .chatconversation-container footer .message-area-container .message-area .typing-area{
-    //height: 40px;
-}
+
 .mirrorfly-root .message-text{
     font-size: 12.9px !important;
     letter-spacing: 0.6px !important;
@@ -48,21 +76,19 @@ export default {
 
 .mirrorfly-root .boxLayout .containerLayout {
     max-width: 100% !important;
-    max-height: 100% !important;
-    min-height: 100% !important;
+    max-height: calc(100vh - 130px) !important;
+    height: calc(100vh - 130px)  !important;
 }
 .recent-chatlist, .chat-conversion {
-    max-height: 100% !important;
-    min-height: 100% !important;
+    height: calc(100vh - 130px) !important;
+    max-height: calc(100vh - 130px) !important;
 }
-.chat-list{
-    height: 100% !important;
-    display: flex;
-    flex-flow: column;
-}
-.mirrorfly-root ,.boxLayout , .containerLayout{
-    height: 100% !important;
-}
+//.chat-list{
+//    height: 100% !important;
+//    display: flex;
+//    flex-flow: column;
+//}
+
 // reply - message
 .mirrorfly-root .container .chat-conversion .chatconversation-container .msg-content .reply-block.receiver .reply-container{
     background: rgba(102,55,191,1);

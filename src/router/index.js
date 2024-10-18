@@ -29,7 +29,14 @@ const routes = [
   },
   {
     path: ROUTES.CHAT,
-    name: "Chat",
+    name: "Chat ",
+    children:[
+      {
+        path:':id',
+        name: "Chat",
+        component:Chat
+      }
+    ],
     component: Chat,
   },
   {

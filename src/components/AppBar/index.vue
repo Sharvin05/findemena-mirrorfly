@@ -72,7 +72,7 @@ export default {
 <style lang="scss" scoped>
 .wrapper{
     position: fixed;
-    z-index: 10;
+    z-index: 4;
     //left: 0px;
     background: $SECONDARY;
     top:0px;
