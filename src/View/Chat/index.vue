@@ -29,9 +29,17 @@ export default {
     methods:{
         handleUnreadCount(data){
             this.emitter.emit("unReadCount",data)
+            const width =   document.getElementById("mf-root-Parent")?.parentElement?.getBoundingClientRect()?.width
+            console.log("mf-root width",width)
         },
     },
+    beforeMount() {
+      const width =   document.getElementById("mf-root-Parent")?.parentElement?.getBoundingClientRect()?.width
+        console.log("mf-root width",width)
+    },
     mounted() {
+        const width =   document.getElementById("mf-root-Parent")?.parentElement?.getBoundingClientRect()?.width
+        console.log("mf-root width",width)
         // Accessing the parent element's offsetWidth when the component is mounted
         this.$nextTick(() => {
             const element = this.$el; // Refers to the root element of the component
@@ -41,21 +49,31 @@ export default {
     }
 }
 </script>
-<style scoped>
-[__use_react_component_wrap] {
-    //display: flex !important; /* Ensures your styles take precedence */
-    height: 100% !important;
-}
-</style>
+<!--<style scoped>-->
+<!--[__use_react_component_wrap] {-->
+<!--    display: flex !important; /* Ensures your styles take precedence */-->
+<!--    height: calc(100vh - 130px)!important;-->
+<!--}-->
+<!--</style>-->
 <style lang="scss">
+
+body .mirrorfly-root .boxLayout {
+    --parent-gap: 65px;
+}
+
+@media screen and (max-width : 1440px) {
+    body .mirrorfly-root .boxLayout{
+        --parent-gap : 65px;
+    }
+}
+
+
 .mirrorfly-root .boxLayout{
     background: none !important;
     padding: 0px !important;
-    height: calc(100vh - 130px)  !important;
 }
-.mirrorfly-root{
-    height: calc(100vh - 130px)  !important;
-}
+
+
 
 .mirrorfly-root .mf-section .start-chart p {
     display: none;
@@ -66,7 +84,9 @@ export default {
 .mirrorfly-root .container .chat-conversion .chatconversation-container{
     background-repeat: repeat;
 }
-
+.mirrorfly-root .container .chat-conversion .chatconversation-container footer .message-area-container .message-area .typing-area{
+    //height: 40px;
+}
 .mirrorfly-root .message-text{
     font-size: 12.9px !important;
     letter-spacing: 0.6px !important;
@@ -76,19 +96,21 @@ export default {
 
 .mirrorfly-root .boxLayout .containerLayout {
     max-width: 100% !important;
-    max-height: calc(100vh - 130px) !important;
-    height: calc(100vh - 130px)  !important;
+    max-height: 100% !important;
+    min-height: 100% !important;
 }
 .recent-chatlist, .chat-conversion {
-    height: calc(100vh - 130px) !important;
-    max-height: calc(100vh - 130px) !important;
+    max-height: 100% !important;
+    min-height: 100% !important;
 }
-//.chat-list{
-//    height: 100% !important;
-//    display: flex;
-//    flex-flow: column;
-//}
-
+.chat-list{
+    height: 100% !important;
+    display: flex;
+    flex-flow: column;
+}
+.mirrorfly-root ,.boxLayout , .containerLayout{
+    height: 100% !important;
+}
 // reply - message
 .mirrorfly-root .container .chat-conversion .chatconversation-container .msg-content .reply-block.receiver .reply-container{
     background: rgba(102,55,191,1);

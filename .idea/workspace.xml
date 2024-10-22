@@ -11,7 +11,7 @@
       <change beforePath="$PROJECT_DIR$/src/View/Chat/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Chat/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppBar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugins/MirrorFly/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/MirrorFly/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +64,11 @@
       <workItem from="1727787440050" duration="3480000" />
       <workItem from="1728982512974" duration="2692000" />
       <workItem from="1729019618350" duration="1181000" />
-      <workItem from="1729241480094" duration="4155000" />
+      <workItem from="1729241480094" duration="9480000" />
+      <workItem from="1729453266143" duration="612000" />
+      <workItem from="1729500116936" duration="782000" />
+      <workItem from="1729507667897" duration="1095000" />
+      <workItem from="1729588404614" duration="1587000" />
     </task>
     <servers />
   </component>

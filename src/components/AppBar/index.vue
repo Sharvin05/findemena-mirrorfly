@@ -49,6 +49,11 @@ export default {
                     label:this.$t('chat'),
                     action:ROUTES.CHAT
                 },
+                {
+                    icon:activity,
+                    label:this.$t('activity'),
+                    action:ROUTES.ACTIVITY,
+                },
             ],
             biddingRoute:ROUTES.BIDDING
         }
