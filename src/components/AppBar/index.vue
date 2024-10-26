@@ -42,7 +42,7 @@ export default {
                 {
                     icon:home,
                     label:this.$t('home'),
-                    action:'home' // string is temp , before mount the proper value is assigned
+                    action:'/home' // string is temp , before mount the proper value is assigned
                 },
                 {
                     icon:chat,

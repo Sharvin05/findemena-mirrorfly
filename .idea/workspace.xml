@@ -9,7 +9,9 @@
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/Chat/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Chat/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Home/index.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/AppBar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugins/MirrorFly/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/MirrorFly/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
     </list>
@@ -33,7 +35,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/sharvin05/Desktop/findmena-mirrorfly&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/sharvin05/Desktop/findmena-mirrorfly/public&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -44,6 +46,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/AppBar" />
     </key>
@@ -68,7 +71,10 @@
       <workItem from="1729453266143" duration="612000" />
       <workItem from="1729500116936" duration="782000" />
       <workItem from="1729507667897" duration="1095000" />
-      <workItem from="1729588404614" duration="1587000" />
+      <workItem from="1729588404614" duration="1847000" />
+      <workItem from="1729674454655" duration="3158000" />
+      <workItem from="1729678811874" duration="1044000" />
+      <workItem from="1729931615509" duration="5000" />
     </task>
     <servers />
   </component>

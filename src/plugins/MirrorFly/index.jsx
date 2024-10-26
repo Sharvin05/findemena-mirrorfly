@@ -66,11 +66,12 @@ function MirrorFlyUIReactComponent({route,changeUnreadCount}) {
         mf_VideoCall: "",
     }
 
-
     const customConversation = {
         userId:route?.params?.id,
+        conversationValue:false, // without sidebar
         sidebarchat:false
     }
+    console.log("route?.params?.id userId",route?.params?.id,customConversation)
 
     function getCounts(counts){
         changeUnreadCount(counts)

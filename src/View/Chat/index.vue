@@ -73,6 +73,9 @@ body .mirrorfly-root .boxLayout {
     padding: 0px !important;
 }
 
+.mirrorfly-root .mf-section .start-chart{
+    //background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fbuilding%2F&psig=AOvVaw376VE6dE6HRF97LjeGfi7a&ust=1729764831247000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNjfu6SipIkDFQAAAAAdAAAAABAE");
+}
 
 
 .mirrorfly-root .mf-section .start-chart p {

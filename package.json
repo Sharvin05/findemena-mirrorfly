@@ -16,7 +16,7 @@
     "connect-history-api-fallback": "^2.0.0",
     "express": "^4.18.2",
     "material-design-icons-iconfont": "^6.7.0",
-    "mirrorfly-uikit": "^4.0.34",
+    "mirrorfly-uikit": "^4.0.36",
     "mitt": "^3.0.1",
     "path": "^0.12.7",
     "react": "^18.2.0",
