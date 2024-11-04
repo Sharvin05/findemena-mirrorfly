@@ -1,5 +1,74 @@
-@import "./typography.scss";
-@import "./colors.scss";
+//@use "./typography.scss";
+
+
+$PRIMARY: #121212;
+$SECONDARY: #ffffff;
+$ORANGE:#f36f25;
+$BLUE:	#4285F4;
+$HOVER_BLUE: rgba(66, 133, 244, 0.09);
+$GREY:#d2d2d2;
+$DARK_GREY: #8a8a8a;
+$DARK_PURPLE:#1E1F4B;
+$LIGHT_PURPLE:rgba(30, 31, 75, 0.7);
+$LIGHT_GREY:rgba(215,215,215,0.1);
+$MEDIUM_GREY:rgba(215,215,215,0.3);
+$PURPLE:#5521b4;
+$PURPLE_LIGHT:#6637bb;
+$GREY_BG: #f4f4f4;
+$LIGHT_WHITE: #D2D2D2FF;
+
+$RED:rgb(255, 87, 51 );
+$LIGHT_BEIGE:#f4f2ed;
+$BEIGE: #f4f2ee; // rgb(244,242,238)
+$GOLD:rgba(255,213,0,1);
+$BRONZE:rgba(205,127,50,1);
+$SILVER: rgba(192,192,192,0.85);
+.text-black {
+  color: $PRIMARY;
+}
+.text-white {
+  color: $SECONDARY;
+}
+.text-orange{
+  color:$ORANGE;
+}
+.text-red{
+  color: $RED;
+}
+.text-purple{
+  color: $PURPLE;
+}
+.text-app-purple{
+  color: $PURPLE;
+}
+.text-dark-purple{
+  color: $DARK_PURPLE;
+}
+.text-light-purple{
+  color: $LIGHT_PURPLE;
+}
+.text-gold{
+  color: $GOLD;
+}
+.text-silver{
+  color: $SILVER;
+}
+.text-bronze{
+  color: $BRONZE;
+}
+.text-dark-grey{
+  color: $DARK_GREY;
+}
+
+.tag-line-grey{
+  color: #6a6a6a;
+}
+.text-grey-bg{
+  color:$LIGHT_WHITE
+}
+
+
+
 
 $NAVBAR_HEIGHTS:70px;
 $BREAKING_POINT:1100px;

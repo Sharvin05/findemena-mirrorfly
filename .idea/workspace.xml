@@ -6,24 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="b8bcc005-f964-4801-bfe6-f0a8832a977d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/attributes.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/appbar/bidding.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/appbar/planner.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/home/hero-removebg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/home/hero.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/home/hero_transapernt.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/media/agency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/media/brand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/media/supplier.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/arete-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/mirrorfly-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/salesforce-heroku.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/sentinelone-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/services/stripe-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/en_US.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en_US.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/styles/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/styles/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +75,7 @@
       <workItem from="1730101816107" duration="1027000" />
       <workItem from="1730105003845" duration="350000" />
       <workItem from="1730105704862" duration="603000" />
-      <workItem from="1730709665986" duration="33000" />
+      <workItem from="1730709665986" duration="828000" />
     </task>
     <servers />
   </component>
