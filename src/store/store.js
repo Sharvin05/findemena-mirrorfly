@@ -25,12 +25,9 @@ export const store = reactive({
   },
   getUser(){
     return {
-      // firstName:"Andrews",
-      // lastName:"Sharvin",
-      // _id:"64db5b9a711fff15a45211eb",
-      _id:"64d0e993eadc2b7f4ea081e8"
+      // _id:"64d0e993eadc2b7f4ea081e8"
+      _id:"6540e8554bd23e1111ad750d"
     }
-    // return JSON.parse(this.get('user'));
   },
   removeUser(){
     this.remove('user')

@@ -6,13 +6,23 @@
   <component name="ChangeListManager">
     <list default="true" id="b8bcc005-f964-4801-bfe6-f0a8832a977d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/attributes.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Chat/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Chat/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/Home/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Home/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppBar/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppBar/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/appbar/bidding.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/appbar/planner.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/home/hero-removebg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/home/hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/home/hero_transapernt.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/media/agency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/media/brand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/media/supplier.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/services/arete-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/services/mirrorfly-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/services/salesforce-heroku.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/services/sentinelone-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/services/stripe-logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugins/MirrorFly/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugins/MirrorFly/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/locales/en_US.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/locales/en_US.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,10 +85,25 @@
       <workItem from="1729674454655" duration="3158000" />
       <workItem from="1729678811874" duration="1044000" />
       <workItem from="1729931615509" duration="5000" />
+      <workItem from="1729939649304" duration="228000" />
+      <workItem from="1730101816107" duration="1027000" />
+      <workItem from="1730105003845" duration="350000" />
+      <workItem from="1730105704862" duration="603000" />
+      <workItem from="1730709665986" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/LogoBox/index.vue</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
